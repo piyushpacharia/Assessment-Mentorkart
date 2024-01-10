@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-color: rgb(223, 239, 253);
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.login-form,
+.SignUp-form {
+  width: 30rem;
+  background-color: rgb(202, 229, 239);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 2px 2px 5px 5px rgb(121, 121, 123);
+  height: 50vh;
+  text-align: center;
+
+}
+
+.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: aliceblue;
+
+}
+
+.form-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+
+}
+
+.form-btn {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.form-control {
+  height: 3.5rem;
+  width: 100%;
+}
+
+.btn-compose {
+  font-size: large;
+}
+
+.compose-mail {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.history-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+
+
+}
+
+.close {
+  border: none;
+  background: none;
+  color: white;
+}
+
+.history-card {
+  width: 80vw;
+  height: max-content;
+  display: wrap;
+  padding: 1rem;
+  justify-content: center;
+  border-bottom: 1px solid black;
+
+
+}
+
+.history-header {
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  width: 80vw;
+  height: max-content;
+  display: wrap;
+  padding: 1rem;
+  justify-content: center;
+  text-align: center;
+  border-radius: 0.5rem;
+
+
+}
+
+.nav {
+  background-color: dodgerblue;
+  color: white;
+  /* height: 20vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.message-box {
+  max-height: 10rem;
+  overflow: auto;
+}
+
+
+.modal-header {
+  background-color: black;
+  color: aliceblue;
+}
